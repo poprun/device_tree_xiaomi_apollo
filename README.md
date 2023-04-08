@@ -1,4 +1,4 @@
-# Android device tree for Redmi K30s (apollo)
+# Android device tree for Redmi M2007J3SC (apollo)
 
 ```
 #
