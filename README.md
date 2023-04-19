@@ -1,4 +1,4 @@
-# Android device tree for Redmi M2007J3SC (apollo)
+# Android device tree for Xiaomi Xiaomi Mi 10T (apollon)
 
 ```
 #

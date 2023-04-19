@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_apollo.mk
+    $(LOCAL_DIR)/omni_apollon.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_apollo-user \
-    omni_apollo-userdebug \
-    omni_apollo-eng
+    omni_apollon-user \
+    omni_apollon-userdebug \
+    omni_apollon-eng

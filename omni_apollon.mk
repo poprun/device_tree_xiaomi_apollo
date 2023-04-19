@@ -12,18 +12,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
-# Inherit from apollo device
-$(call inherit-product, device/xiaomi/apollo/device.mk)
+# Inherit from apollon device
+$(call inherit-product, device/xiaomi/apollon/device.mk)
 
-PRODUCT_DEVICE := apollo
-PRODUCT_NAME := omni_apollo
-PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := M2007J3SC
+PRODUCT_DEVICE := apollon
+PRODUCT_NAME := omni_apollon
+PRODUCT_BRAND := Xiaomi
+PRODUCT_MODEL := Xiaomi Mi 10T
 PRODUCT_MANUFACTURER := xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="apollo-user 10 QKQ1.200419.002 V12.0.10.0.QJDCNXM release-keys"
+    PRIVATE_BUILD_DESC="apollo_global-user 12 RKQ1.211001.001 V13.0.6.0.SJDMIXM release-keys"
 
-BUILD_FINGERPRINT := Redmi/apollo/apollo:10/QKQ1.200419.002/V12.0.10.0.QJDCNXM:user/release-keys
+BUILD_FINGERPRINT := Xiaomi/apollo_global/apollo:12/RKQ1.211001.001/V13.0.6.0.SJDMIXM:user/release-keys
